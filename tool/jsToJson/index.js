@@ -6,13 +6,14 @@ const jsDir = './lang'
 let files = fs.readdirSync(jsDir);
 
 files.forEach(file => {
-    const obj = require(jsDir + '/' + file);
-    const fileName = file.replace('.js', '.json')
-    fs.writeFile(`lang/${fileName}`, obj2JS(obj), err => {
-        if (err) throw err
-        console.log(`lang/${fileName} 已生成`)
-    })
-    
+    if (file.endsWith('.js')) {
+        const obj = require(jsDir + '/' + file);
+        const fileName = file.replace('.js', '.json')
+        fs.writeFile(`lang/${fileName}`, obj2JS(obj), err => {
+            if (err) throw err
+            console.log(`lang/${fileName} 已生成`)
+        })
+    }
 })
 
 function obj2JS(obj) {
