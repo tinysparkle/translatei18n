@@ -1,0 +1,18 @@
+{
+    "market": {
+        "companyName": "Tên công ty",
+        "companyNameTips": "Tên này sẽ được hiển thị trong tài liệu in.",
+        "shopNameTips": "Tên này sẽ được hiển thị trong EGGMall."
+    },
+    "product": {
+        "sellerName": "Tên người bán",
+        "sellerNameTips": "Tên này được sử dụng để người dùng ghi nhớ sản phẩm và có thể tìm kiếm trong dòng SKU của trang chi tiết đơn hàng.",
+        "productDescTips": "Tên sản phẩm này sẽ hiển thị trong trang chi tiết đơn hàng và sẽ hiển thị trong EGGMall nếu sản phẩm được bật trong EGGMall.",
+        "shopCode": "Mã cửa hàng"
+    },
+    "order": {
+        "goPrint": "Đi in",
+        "printDlgTitle": "Vui lòng chọn tài liệu bạn muốn in",
+        "copies": "Bản sao"
+    }
+}

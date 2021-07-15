@@ -1,0 +1,18 @@
+{
+    "market": {
+        "companyName": "",
+        "companyNameTips": "",
+        "shopNameTips": ""
+    },
+    "product": {
+        "sellerName": "",
+        "sellerNameTips": "",
+        "productDescTips": "",
+        "shopCode": ""
+    },
+    "order": {
+        "goPrint": "",
+        "printDlgTitle": "",
+        "copies": ""
+    }
+}

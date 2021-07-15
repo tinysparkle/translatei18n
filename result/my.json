@@ -1,0 +1,18 @@
+{
+    "market": {
+        "companyName": "nama syarikat",
+        "companyNameTips": "Nama ini akan dipaparkan dalam dokumen bercetak.",
+        "shopNameTips": "Nama ini akan dipaparkan di EGGMall."
+    },
+    "product": {
+        "sellerName": "Nama Penjual",
+        "sellerNameTips": "Nama ini digunakan untuk pengguna mengingat produk, dan dapat dicari dalam baris terperinci SKU halaman.",
+        "productDescTips": "Nama produk ini akan dipaparkan dalam halaman terperinci pesanan, dan akan dipaparkan di EGGMall jika produk diaktifkan di EGGMall.",
+        "shopCode": "Kod Kedai"
+    },
+    "order": {
+        "goPrint": "Pergi Cetak",
+        "printDlgTitle": "Sila pilih dokumen yang ingin dicetak",
+        "copies": "Salinan"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "market": {
+        "companyName": "公司名称",
+        "companyNameTips": "此名称将显示在打印的文档中。",
+        "shopNameTips": "此名称将显示在 EGGMall 中。"
+    },
+    "product": {
+        "sellerName": "卖家名称",
+        "sellerNameTips": "此名称用于用户记住产品，可在订单详情页SKU 行中搜索。",
+        "productDescTips": "此商品名称将显示在订单详情页面中，如果商品在 EGGMall 中启用，则会显示在 EGGMall 中。",
+        "shopCode": "商店代码"
+    },
+    "order": {
+        "goPrint": "去打印",
+        "printDlgTitle": "请选择您要打印的文件",
+        "copies": "副本"
+    }
+}

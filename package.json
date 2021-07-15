@@ -1,0 +1,19 @@
+{
+  "name": "translatei18n",
+  "version": "1.0.0",
+  "description": "前端批量翻译、自动翻译",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.jimuitech.com/egg/translatei18n.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/translate": "^6.2.0",
+    "googleapis": "^68.0.0",
+    "node-xlsx": "^0.16.1"
+  }
+}

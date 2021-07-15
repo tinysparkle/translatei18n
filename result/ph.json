@@ -1,0 +1,18 @@
+{
+    "market": {
+        "companyName": "pangalan ng Kumpanya",
+        "companyNameTips": "Ipapakita ang pangalang ito sa mga naka-print na dokumento.",
+        "shopNameTips": "Ipapakita ang pangalang ito sa EGGMall."
+    },
+    "product": {
+        "sellerName": "Pangalan ng Nagbebenta",
+        "sellerNameTips": "Ginagamit ang pangalang ito upang maalala ng gumagamit ang produkto, at maaaring hanapin sa linya ng detalye ng pahina ng detalye ng SKU.",
+        "productDescTips": "Ang pangalan ng produkto ay ipapakita sa pahina ng detalye ng pagkakasunud-sunod, at ipapakita sa EGGMall kung ang produkto ay pinagana sa EGGMall.",
+        "shopCode": "Shop Code"
+    },
+    "order": {
+        "goPrint": "Pumunta sa I-print",
+        "printDlgTitle": "Mangyaring piliin ang dokumento na nais mong i-print",
+        "copies": "Mga kopya"
+    }
+}
