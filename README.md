@@ -9,7 +9,7 @@
 1. 目前除英语、泰语、印尼语外，其他语言需要用到google翻译，所以需要翻墙
 2. 目前只支持两级嵌套的多语言文件，适合目前绝大部分项目，如果是单级或者更多级，需要稍微改造下
 3. 多语言需求已经准备在erp-web开发，本项目只是个临时工具
-4. 因为本工具和erp之后的多语言工具都生成的结果都是json，建议各项目将多语言文件都改成json格式，本项目tool下提供了一个工具jsToJson可以使用，不过还是检查下生成的json有没有问题
+4. 因为本工具和erp之后的多语言工具都生成的结果都是json，建议各项目将多语言文件都改成json格式，本项目tool下提供了一个工具jsToJson可以使用，不过还是要检查下生成的json有没有问题
 
 
 ## 使用步骤
@@ -17,19 +17,22 @@
 
 2. 一般在第一轮测试基本结束时，将需需要的翻译文案整理成excel给产品, 以免测试过程中又加了很多文案
 
-3. 比较开发分支的en.js 和 master分支的en.js， 就可以整理出开发分支加了哪些文案需要翻译，将其保留层级复制到source.js中
+3. 比较开发分支的en.js和master分支的en.js，就可以整理出开发分支加了哪些文案需要翻译，将其保留层级关系复制到source.js中
 
 4. 安装依赖: npm i
 
 5. 在终端中设置google翻译项目key文件（注意修改文件路径）：
-export GOOGLE_APPLICATION_CREDENTIALS="/Users/xiaowei/master/translatei18n/resource/translate-key.json"  
-设置vpn翻墙代理端口（不同vpn不一样）：
-export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+export GOOGLE_APPLICATION_CREDENTIALS="/Users/xiaowei/master/translatei18n/resource/>* translate-key.json"  
 
-6. 在同一个终端中运行node sourceToExcel.js， 会生成一个tanslate.xlsx, 将这个文件给产品，让产品补全文件中的泰语、印尼语两列再给我们
+6. 设置vpn翻墙代理端口（不同vpn的代理端口不一样）:
+export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890  
 
-7. 将产品给回的excel替换掉tanslate.xlsx，然后运行 node excelToJson.js，生成的结果将会保存在result文件夹下
+7. 修改translate.js中，6、7两行的端口号为上一步vpn的代理端口号
 
-8. 将result下的各语言翻译一块块复制到项目中即可
+8. 在同一个终端中运行node sourceToExcel.js， 会生成一个tanslate.xlsx, 将这个文件给产品，让产品补全文件中的泰语、印尼语两列再给我们
+
+9. 将产品给回的excel替换掉tanslate.xlsx，然后运行 node excelToJson.js，生成的结果将会保存在result文件夹下
+
+10. 将result下的各语言翻译一块块复制到项目中即可
 
 
