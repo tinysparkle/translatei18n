@@ -28,8 +28,8 @@ Promise.all([translate(enList, 'zh'), translate(enList, 'tl'), translate(enList,
     })
 
     var buffer = xlsx.build([{name: "sheet1", data: sheet1, options}])
-    fs.writeFile('tanslate.xlsx', buffer, err => {
+    fs.writeFile('translate.xlsx', buffer, err => {
         if (err) throw err
-        console.log('tanslate.xlsx 已生成')
+        console.log('translate.xlsx 已生成')
     })
 })

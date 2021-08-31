@@ -1,5 +1,5 @@
 // 调用google api翻译
-// 在终端执行(当前终端有效)： export GOOGLE_APPLICATION_CREDENTIALS="/Users/xiaowei/translate-key.json"
+// 在终端执行(当前终端有效)： export GOOGLE_APPLICATION_CREDENTIALS="./resource/translate-key.json"
 
 // 设置代理
 const { google } = require("googleapis");

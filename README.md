@@ -22,16 +22,16 @@
 4. 安装依赖: npm i
 
 5. 在终端中设置google翻译项目key文件（注意修改文件路径）：
-export GOOGLE_APPLICATION_CREDENTIALS="/Users/xiaowei/master/translatei18n/resource/>* translate-key.json"  
-
+export GOOGLE_APPLICATION_CREDENTIALS="/Users/lijun/Desktop/zhimaxigua/translatei18n/resource/translate-key.json"
+  
 6. 设置vpn翻墙代理端口（不同vpn的代理端口不一样）:
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890  
 
 7. 修改translate.js中，6、7两行的端口号为上一步vpn的代理端口号
 
-8. 在同一个终端中运行node sourceToExcel.js， 会生成一个tanslate.xlsx, 将这个文件给产品，让产品补全文件中的泰语、印尼语两列再给我们
+8. 在同一个终端中运行node sourceToExcel.js， 会生成一个translate.xlsx, 将这个文件给产品，让产品补全文件中的泰语、印尼语两列再给我们
 
-9. 将产品给回的excel替换掉tanslate.xlsx，然后运行 node excelToJson.js，生成的结果将会保存在result文件夹下
+9. 将产品给回的excel替换掉translate.xlsx，然后运行 node excelToJson.js，生成的结果将会保存在result文件夹下
 
 10. 将result下的各语言翻译一块块复制到项目中即可
 

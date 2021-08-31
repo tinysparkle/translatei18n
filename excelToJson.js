@@ -35,7 +35,7 @@ const columnMap = {
 }
 
 
-const sheet = xlsx.parse('./tanslate.xlsx')[0].data
+const sheet = xlsx.parse('./translate.xlsx')[0].data
 sheet.forEach((row, rowIndex) => {
     if (rowIndex > 0) {
         const path = row[0]
